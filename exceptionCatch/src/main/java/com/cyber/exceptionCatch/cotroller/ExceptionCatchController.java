@@ -18,7 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
  * exception 则是创建一个 int 异常 , 然后该页面有个基本输出
  * 可以通过注释内的 try-catch 句柄抓取异常重新在页面输出内容
  * 也可以通过 exception 目录下的 AOP 去全局抓取 Controller 的异常, 然后对网页进行一个内容输出
- * RestController 和 Controller 是有区别的
+ * RestController 和 Controller 是有区别的 , RestController 是 Controller 和 ResponseBody 的结合体
+ * RestController  返回的可以是 string , object , json 数据
+ * 而 Controller 返回的一般只会是 String
  * @author: Cyber
  * @date: 2021年06月02日 18:54
  */
