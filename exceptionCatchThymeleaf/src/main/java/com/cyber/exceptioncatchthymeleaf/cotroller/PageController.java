@@ -8,6 +8,8 @@ package com.cyber.exceptioncatchthymeleaf.cotroller;/***************************
  * @updateRemark : [说明本次修改内容]  
  *************************************************/
 
+
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,7 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PageController {
     @RequestMapping("/exceptionTh")
-    public String hello(){
-        return "here is the thymeleaf controller returns";
+    public Model exceptionTh(Model model){
+        model.addAttribute("name","Cyber");
+        return model;
     }
 }
