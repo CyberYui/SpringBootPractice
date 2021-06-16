@@ -23,6 +23,7 @@ public class PageController {
     @RequestMapping("/exceptionTh")
     public Model exceptionTh(Model model){
         model.addAttribute("name","Cyber");
+        model.addAttribute("age","151");
         return model;
     }
 }
