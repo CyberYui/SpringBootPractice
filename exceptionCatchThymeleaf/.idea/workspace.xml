@@ -53,7 +53,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -83,6 +83,12 @@
       <workItem from="1624271023861" duration="4210000" />
       <workItem from="1624432091129" duration="1078000" />
       <workItem from="1635124035362" duration="117000" />
+      <workItem from="1635124397900" duration="37000" />
+      <workItem from="1635124480585" duration="62000" />
+      <workItem from="1635124660444" duration="815000" />
+      <workItem from="1635126083651" duration="1899000" />
+      <workItem from="1635128275914" duration="161000" />
+      <workItem from="1635128535426" duration="44000" />
     </task>
     <servers />
   </component>
